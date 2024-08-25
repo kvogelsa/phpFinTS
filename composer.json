@@ -1,5 +1,5 @@
 {
-  "name": "nemiah/php-fints",
+  "name": "kvogelsa/php-fints",
   "description": "PHP Library for the protocols fints and hbci",
   "homepage": "https://github.com/nemiah/phpFinTS",
   "version": "3.5.0",
@@ -35,5 +35,10 @@
     ],
     "cs": "php-cs-fixer fix -v --diff --dry-run",
     "cs-fix": "php-cs-fixer fix -v --diff"
-  }
+  },
+  "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    }
 }
